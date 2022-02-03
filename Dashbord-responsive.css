@@ -1,0 +1,345 @@
+@media only screen and (min-width:250px) and (max-width:728px) 
+{
+   .logo 
+   {
+       width:100px;
+       height:25px;      
+   }
+   .top-logo
+{
+   display: flex; 
+   gap:1.8rem;
+   padding-block:10px;
+}
+   h3
+   {
+       font-size:0.88rem;
+   }
+   .Container
+   {
+      width:100%;     
+   }
+   .Top
+   {
+     height: 100vh;
+     padding: 10px;
+   }
+       .close
+   {
+      padding-top:05px;
+      color:var(  --font-color-2);
+   }
+   .Side-Bar
+   {
+        padding-block: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       
+   }
+    h3
+   {
+       display:inline;
+       margin-block:3px;     
+   }
+    a
+     {
+         display: flex;
+         gap:0.8rem;
+         padding-block:15px;
+     }
+     aside{
+         position:fixed;
+         background-color:var( --nav-color);
+         left:0px;
+         height: 100vh;
+         width:200px;
+         display: none;
+         z-index:3;
+     }
+     .btn
+     {
+         background-color:var(--sky-blue);
+         width: 130px;
+         height:40px;
+         position: absolute;
+         left:10px;        
+         bottom:30px;
+         display: flex;
+         border-radius: 6px;
+         color: white;
+         padding:10px;
+        justify-content: space-between;
+     }
+     .Main{
+         position: relative;
+     }
+ 
+   .nav
+   {
+    color:black;
+    font-weight: bold;
+    position: absolute;
+    left:5px;
+    top:0px;
+   }
+   .nav-white-box
+   {
+      display:none;
+   }
+   .fnl-nav-chat
+   {
+     display: none;
+   }
+}
+@media only screen and (min-width:729px) and (max-width:1024px) 
+{
+   .logo 
+   {
+       width:100px;
+       height:25px;      
+   }
+   .top-logo
+{
+   display: flex; 
+   gap:1.8rem;
+   padding-block:10px;
+}
+   h3
+   {
+       font-size:0.88rem;
+   }
+   .Container
+   {
+      width:100%;     
+   }
+   .Top
+   {
+     height: 100vh;
+     padding: 10px;
+   }
+       .close
+   {
+      padding-top:05px;
+      color:var(  --font-color-2);
+   }
+   .Side-Bar
+   {
+        padding-block: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       
+   }
+    h3
+   {
+       display:inline;
+       margin-block:3px;     
+   }
+    a
+     {
+         display: flex;
+         gap:0.8rem;
+         padding-block:15px;
+     }
+     aside{
+         position:fixed;
+         background-color:var( --nav-color);
+         left:0px;
+         height: 100vh;
+         width:200px;
+         display: none;
+         z-index:3;
+     }
+     .btn
+     {
+         background-color:var(--sky-blue);
+         width: 130px;
+         height:40px;
+         position: absolute;
+         left:10px;        
+         bottom:30px;
+         display: flex;
+         border-radius: 6px;
+         color: white;
+         padding:10px;
+        justify-content: space-between;
+     }
+     .Main{
+         position: relative;
+     }
+ 
+   .nav
+   {
+    color:black;
+    font-weight: bold;
+    position: absolute;
+    left:5px;
+    top:0px;
+   }
+   .nav-white-box
+   {
+      display:none;
+   }
+   .fnl-nav-chat
+   {
+     display: none;
+   }
+}
+@media only screen and (min-width:1025px) and (max-width:2465px) 
+{
+   .logo 
+   {
+       width:100px;
+       height:25px;      
+   }
+   .top-logo
+{
+   display: flex; 
+   gap:1.8rem;
+   padding-block:10px;
+}
+   h3
+   {
+       font-size:0.88rem;
+   }
+   .Container
+   {
+      width:100%;     
+   }
+   .Top
+   {
+     height: 100vh;
+     padding: 10px;
+   }
+       .close
+   {
+      padding-top:05px;
+      color:var(  --font-color-2);
+      display:none;
+   }
+   .Side-Bar
+   {
+        padding-block: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       
+   }
+    h3
+   {
+       display:inline;
+       margin-block:3px;     
+   }
+    a
+     {
+         display: flex;
+         gap:0.8rem;
+         padding-block:15px;
+     }
+     aside{
+         position:fixed;
+         background-color:var( --nav-color);
+         left:0px;
+         height: 100vh;
+         width:200px;         
+         z-index:3;
+     }
+     .btn
+     {
+         background-color:var(--sky-blue);
+         width: 130px;
+         height:40px;
+         position: absolute;
+         left:10px;        
+         bottom:90px;
+         display: flex;
+         border-radius: 6px;
+         color: white;
+         padding:10px;
+        justify-content: space-between;
+     }
+     .Main{
+         position: relative;
+     }
+ 
+   .nav
+   {
+    color:black;
+    font-weight: bold;
+    position: absolute;
+    left:5px;
+    top:0px;
+    display:none;
+   }
+   .nav-white-box
+   {
+       position: absolute;
+       bottom:150px;
+       background-color:white;
+       width:85%;
+       height: 120px;
+       margin:auto;
+       left: 0px;
+       right:0px;
+       text-align: center;
+       border-radius:6px;
+   }
+   .nav-yt
+   {
+       height:40px;
+       width:50px;
+       background-color:white;
+       color: var(--sky-blue);
+       border:4px solid #F0F8FF; 
+       border-radius: 12px;
+       text-align: center;
+       padding-block:08px;
+       position: absolute;
+       left:0px;
+       right: 0px;
+       margin:auto;
+       bottom:90px;
+   }
+   .nav-text-1
+   {
+       margin-top:20px;
+       padding-block: 15px;
+       font-size: 14px;
+       font-weight: bold;
+   }
+   .na-text-color
+   {
+    padding-block: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color:var(--sky-blue);
+   }
+   .first
+   {
+     color: var(--font-color-2);
+     height: 1px;
+   }
+   .fnl-nav-chat
+   {
+       display: flex;
+       position: absolute;
+       bottom:20px;
+   }
+   .avatar
+   {
+       width: 50px;
+       height:30px;
+   }
+   .nav-fnl-text
+   {
+       font-size:12px;
+       font-weight: bold;
+       padding-block: 08px;
+   }
+   .fnl-dots
+   {
+       padding-block:04px;
+       padding-left: 08px;
+   }
+}

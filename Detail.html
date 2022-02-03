@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link  rel="stylesheet" href="Detail-responsive.css">
+    <link  rel="stylesheet" href="Detail.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+
+         <label class="logo-header">
+           <img src="./img/main-logo.png" class="logo">
+           <label class="logo-btn"><p class="logo-text">CAMPAIGN</p></label>
+        </label>
+
+        <div class="Stepper">
+
+            <div class="Step-1"><span class="check">1                
+            </span></div>
+            <p class="stepper-text-1">Details</p>  
+
+            <div class="Step-2">2</div>
+            <p class="stepper-text-2">Templates</p>
+
+            <div class="Step-3">3</div>
+            <p class="stepper-text-3">Design</p>
+ 
+            <div class="Step-4">4</div>
+            <p class="stepper-text-4">Trigger Events</p>
+ 
+          </div>
+         
+         
+          <div class="Steper-btn-1" id="con-btn" >  
+            <a href="Template.html" class="stepper-btn-a-1" >           
+              Continue </a> </div>
+            
+                    
+        </div>
+
+        <div class="details">   
+            <div class="froms">
+                <p class="from-details-header">Details Form</p>
+                <p class="from-details"> Please Fill The Details Form</p>
+               <hr class="hrq">
+               <form action=" " onsubmit="sConsole(event)">
+                <label for="fname" class="form-name">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Please Fill Name.." required>
+            
+                <label for="lname" class="form-name">Phone Number</label>
+                <input type="text" id="phone" name="lastname" placeholder="Please Fill Phone.." required>
+                
+                <label for="lname" class="form-name">Email</label>
+                <input type="email" id="Email" name="lastname" placeholder=" Please Fill Emails.." required autocomplete="off">
+                
+                <label for="lname" class="form-name">Address</label>
+                <input type="text" id="Address" name="lastname" placeholder=" Please Fill Address.." required>
+            
+                <label for="country" class="form-name">Gender</label>
+                <select id="gender" name="Gender" class="Gender">
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="other">Other</option>
+                </select>            
+                
+                <input type="submit" class="form-btn" onclick="btnenable()">
+              </form>
+            </div>
+        </div>
+    <script>
+      function sConsole (event) {
+        event.preventDefault();
+        var data = document.getElementById("fname" );
+        var data1 = document.getElementById("phone");
+        var data2 = document.getElementById("Email" );
+        var data3 = document.getElementById("Address");
+        var data4= document.getElementById("gender");
+        console.log("Name: " + data.value);
+        console.log("Phone: " + data1.value);
+        console.log("Email: " + data2.value);
+        console.log("Address: " + data3.value);
+        console.log("Gender: " + data4.value);
+              
+      }
+      function btnenable() {
+       document.getElementsByClassName("stepper-btn-a-1")[0].pointerEvents="visiable";
+          }
+    </script>
+</body>
+</html>

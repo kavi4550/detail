@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics-page</title>
+    <link  rel="stylesheet" href="Analytics.css" >
+    <link  rel="stylesheet" href="Analytics responsive.css" >
+    <link  rel="stylesheet" href="index.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+
+</head>
+<body>
+   <div class="Container">
+     <aside>
+       <div class="Top">
+         <div class="top-logo">
+         <img src="./img/main-logo.png" class="logo">
+        
+         <div class="close" id="close-btn">
+          <span class="material-icons-sharp">
+            close
+            </span>
+         </div>
+        </div>
+        <div class="Side-Bar">
+           <a href="Dashbord.html">
+            <span class="material-icons-sharp">
+              dashboard
+              </span>
+              <h3>DashBoard</h3>
+           </a>
+
+           <a href="">
+            <span class="material-icons-outlined">
+              contacts
+              </span>
+              <h3>Contacts</h3>
+           </a>
+
+           <a href="">
+            <span class="material-icons-outlined">
+              inventory_2
+              </span>
+              <h3>Compaigns</h3>
+           </a>
+
+           <a href="">
+            <span class="material-icons-outlined">
+              article
+              </span>
+              <h3>Forms</h3>
+           </a>
+
+           <a href="">
+            <span class="material-icons-sharp">
+              event
+              </span>
+              <h3>Events</h3>
+           </a>
+
+           <a href="Analytics.html" class="active-anchor">
+            <span class="material-icons-outlined">
+              donut_small
+              </span>
+              <h3 class="active-t1">Analytics</h3>
+           </a>
+
+           <a href="">
+            <span class="material-icons-round">
+              settings
+              </span>
+              <h3>Settings</h3>
+           </a>
+        
+        </div>     
+       </div>
+
+       <a href="Detail.html">
+       <label class="btn">
+           <p class="text-btn">Continue</p>
+       </label>
+    </a> 
+     </aside>
+     <div class="Main">
+
+       <div class="navbar" >
+      <a href="#" class="nav">
+        <span class="material-icons-round">
+          menu
+          </span>
+       </a>     
+      </div>
+     <div class="Header">
+        <p class="header-t1">Analytics</p> 
+
+       <div class="analytics-side-content">
+
+       <label class="date-picker">
+       <input type="month" id="start" name="start" placeholder="Last 3 Moths"
+       min="2018-03" value="2018-05">
+       </label>
+
+       <label class="filter">
+          <span class="material-icons-outlined">
+            filter_alt
+            </span>
+            <p class="filter-t1">Filter</p>
+       </label>
+
+       <label class="Export"  onclick="window.print()">
+        <span class="material-icons-outlined">
+            file_download
+            </span>
+          <p class="export-t1">Export</p>
+     </label>
+    </div> 
+     </div>
+
+     <div class="over-all-box">
+        <div class="box-1">
+            <span class="box-icon">
+                <span class="material-icons-outlined">
+                    rocket
+                    </span>
+            </span>
+            <div class="letter">
+                <p class="letter-t1">Total Compaigns</p>
+                <p class="letter-t2">49</p>
+            </div>
+        </div>   
+
+        <div class="box-1">
+            <span class="box-icon-2">
+                <span class="material-icons-outlined">
+                    military_tech
+                    </span>
+            </span>
+            <div class="letter">
+                <p class="letter-t1">Avg Students Lead Score</p>
+                <p class="letter-t2">38/100</p>
+                <p class="green-text">+112.54%</p>
+            </div>
+        </div>  
+
+        <div class="box-1">
+            <span class="box-icon-3">
+                <span class="material-icons-outlined">
+                    visibility
+                    </span>
+            </span>
+            <div class="letter">
+                <p class="letter-t1">Avg Campaign Open Rate</p>
+                <p class="letter-t2">47%</p>
+                <p class="green-text">+76.2%</p>
+            </div>
+        </div>  
+     </div> 
+     
+     <div class="graph">
+
+         <div class="line-chart">
+            <canvas id="line-Chart"></canvas>
+            
+         </div>
+
+         <div class="Compaign-chart">
+             
+            <p class="compaign-type">Compaign Types</p>
+            
+            <div class="p1-chart">
+             
+                <p class="b-t">140</p>
+                <p class="b-t1">Email</p>
+             
+            </div>
+
+            <div class="p2-chart">
+                <p class="b-t-3">90</p>
+                <p class="b-t1">Socails</p>
+            </div>
+            
+            <div class="p3-chart">
+                <p class="b-t-4">115</p>
+                <p class="b-t1">Forms</p>
+            </div>
+         </div>
+
+        </div>     
+     <div class="table">
+      <table class="table">
+           <thead>
+               <tr>
+                   <th> </th>
+                   <th><div class="table-header">Name <span class="table-icon"><span class="material-icons-outlined">
+                       expand_less
+                       </span></span></div></th>
+
+                   <th><div class="table-header">Start<span class="table-icon-2"><span class="material-icons-outlined">
+                       unfold_more
+                       </span></span></div></th>                   
+
+                   <th><div class="table-header">End<span class="table-icon-2"><span class="material-icons-outlined">
+                       unfold_more
+                       </span></span></div></th>                 
+
+                   
+                   <th><div class="table-header">Engagement<span class="table-icon-2"><span class="material-icons-outlined">
+                       unfold_more
+                       </span></span></div></th>                   
+
+                  
+                   <th><div class="table-header">Time Sent-Open<span class="table-icon-2"><span class="material-icons-outlined">
+                       unfold_more
+                       </span></span></div></th>               
+
+                   <th><div class="table-header">Sent to<span class="table-icon-2"><span class="material-icons-outlined">
+                       unfold_more
+                       </span></span></div></th>
+
+                   <th></th>                    
+               </tr>
+           </thead>
+       <tbody>
+           <tr>
+               <td><span class="table-data-icon"><span class="material-icons-outlined">email</span></span></td>
+               <td data-label="Name">School Tour</td>
+               <td data-label="Start">February 18, 2021</td>
+               <td data-label="End">March 19, 2021</td>
+               <td data-label="Enagement" ><div class="table-data-more-icons">
+                   <span class="table-ico-1"><span class="material-icons-outlined">
+                       visibility
+                       </span></span>
+                       <span> 23% </span>
+                   <span class="table-ico-1"><span class="material-icons-outlined">
+                       touch_app
+                       </span></span>
+                           <span> 23% </span>
+               </div></td>
+               <td data-label="Time Sent-Open">2 days</td>
+               <td data-label="Sent to">2074</td>
+               <td><span class="table-fnl-ico">
+                   <span class="material-icons-outlined">
+                       more_horiz
+                       </span>
+               </span></td>
+           </tr>
+           <tr>
+               <td><span class="table-data-icon-2"><span class="material-icons-outlined">assignment</span></span></td>
+               <td data-label="Name">Interviews</td>
+               <td data-label="Start">April 20, 2021</td>
+               <td data-label="End" style="color:grey;">in Progress</td>
+               <td data-label="Enagement"><div class="table-data-more-icons">
+                   <span class="table-ico-1"><span class="material-icons-outlined">
+                       visibility
+                       </span></span>
+                       <span> 23% </span>
+                   <span class="table-ico-1"><span class="material-icons-outlined">
+                       touch_app
+                       </span></span>
+                           <span> 23% </span>
+               </div></td>
+               <td data-label="Time Sent-Open">3 days</td>
+               <td data-label="Sent to">1859</td>
+               <td><span class="table-fnl-ico">
+                   <span class="material-icons-outlined">
+                       more_horiz
+                       </span>
+               </span></td>
+           </tr>
+       </tbody>
+      </table>
+  </div>    
+      
+     </div>
+   </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+<script src="lineChart.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+<script src="lineChart.js"> </script>   
+
+</html>

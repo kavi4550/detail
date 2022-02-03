@@ -1,0 +1,21 @@
+input {
+  display: none; 
+  
+}
+input:checked + .label {
+  background-color: yellowGreen; 
+  padding:05px;
+  border-radius:5px;
+  color:white;
+}
+.Container
+{
+  display:flex;
+  border: 2px solid teal;
+  width:230px;
+  padding:10px;
+  height:auto;
+  display:flex;
+  justify-content:space-between;
+  border-radius: 6px;
+}

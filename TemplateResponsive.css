@@ -1,0 +1,1188 @@
+@media only screen and (min-width:250px) and (max-width:728px) 
+{
+    .Header
+    {
+        padding: 10px;
+        width:100%;
+        height:140px;
+        background-color:white;
+    }
+    .Container
+   {
+    width:100%;
+    height:100vh;
+    background-color:#f1f5f8;  
+    }
+    .logo
+   {
+       width:90px;
+       height:20px;
+       margin-inline:08px;                
+   }
+   .logo-btn
+   {
+       background-color:#50C878;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:4px;     
+   }
+   .logo-text
+   {
+       color:white;
+       font-size:12px;
+       text-align:center;
+       padding-block-end:01px;
+       padding-block-start:05px;
+   }
+   .logo-header
+   {
+   display: flex;
+   }
+   .Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:15px;
+   }
+   .Step-1,.Step-2,.Step-3,.Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px  ;
+   }
+   .Templete
+   {   
+       background-color:white;
+       width:75%;
+       height:325px;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       margin-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width: 90%;
+       height:180px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:45%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }
+   .more-btn
+   {
+       color:skyblue;
+       float:right;
+       padding:15px;
+   }
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       display:none;
+   }
+   .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+   {
+    display:none;
+   }
+   .check
+   {
+       color:white;
+   }   
+}
+
+@media only screen and (min-width:729px) and (max-width:968px) 
+{
+    .Header
+    {
+        padding: 10px;
+        width:100%;
+        height:140px;
+        background-color:white;
+    }
+    .details
+   {
+    width:100%;
+    height:calc(100vh - 140px);
+    background-color:#f1f5f8;
+    }
+    .logo
+   {
+       width:90px;
+       height:20px;
+       margin-inline:10px;                
+   }
+   .logo-btn
+   {
+       background-color:#50C878;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:6px;     
+   }
+   .logo-text
+   {
+       color:white;
+       font-size:12px;
+       text-align:center;
+       padding-block-end:01px;
+       padding-block-start:05px;
+   }
+   .logo-header
+   {
+   display: flex;
+   }
+   .Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:20px;
+   }
+   .Step-1,.Step-2,.Step-3,.Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px  ;
+   }
+   .Templete
+   {   
+       background-color:white;
+       width:75%;
+       height:65vh;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width:45%;
+       height:240px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:45%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }
+   .more-btn
+   {
+       color:#027aff;
+       float:right;
+       padding:10px;
+   }
+  .Over-all-templetes
+  {
+      display:flex;
+      justify-content:space-around;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-block: 10px;
+  }
+   .Templete-box-2
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width: 45%;
+       height:240px;
+       margin: auto;
+       position:relative;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:235px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:110px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:45px;
+   }
+   .check
+   {
+       color:white;
+   }
+   .Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       display:none;
+   }
+   .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+   {
+    display:none;
+   }
+}
+@media only screen and (min-width:969px) and (max-width:1024px) 
+{
+    .Header
+    {
+        padding: 10px;
+        width:100%;
+        height:75px;
+        background-color:white;
+        display:flex;
+        justify-content: space-between;
+    }
+    .details
+   {
+    width:100%;
+    height:calc(100vh - 75px);
+    background-color:#f1f5f8;
+    /* overflow:hidden; */
+    }
+    .logo
+   {
+       width:90px;
+       height:20px;
+       margin-inline:10px;                
+   }
+   .logo-btn
+   {
+       background-color:#50C878;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:6px;     
+   }
+   .logo-text
+   {
+       color:white;
+       font-size:12px;
+       text-align:center;
+       padding-block-end:01px;
+       padding-block-start:05px;
+   }
+   .logo-header
+   {
+   display: flex;
+   padding-block: 15px;
+   }
+   .Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:10px;    
+   }
+   .Step-1,.Step-2,.Step-3,.Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px  ;
+       margin-block:10px;
+   }
+   .Templete
+   {   
+       background-color:white;
+       width:75%;
+       height:75vh;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block:10px;
+   }
+   .Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .stepper-text-2
+   {
+    font-size:15px;
+    font-weight:bold;     
+    letter-spacing:0.5px;    
+    padding-block:06px;
+    padding-inline-end:05px;
+   }
+   .stepper-text-1
+   {
+       font-size:15px;
+       font-weight:bold;     
+       letter-spacing:0.5px;
+       color:lightgray;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+  .stepper-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:0px;
+       padding-inline-end:05px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:05px;
+       color:lightgray;
+       font-weight: bold;
+   }
+   .Templete-box-1
+   {
+       width:180px;
+       height:180px;
+       border-style: dashed;
+       border-color: lightgray;     
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-block:10px;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:#027aff;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:45%; 
+       padding-block:08px;          
+       margin-top:20px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;  
+       padding-block:40px;   
+   }
+   .more-btn
+   {
+       color:#027aff;
+       float:right;
+       padding:15px;
+       display:none;
+   }
+  .Over-all-templetes
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:85%;
+      padding-block:0px;
+      margin: auto;
+      overflow:scroll;
+  }
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:180px;
+       height:180px;     
+       position:relative;
+       margin-block:10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:154px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:80px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:20px;
+   }
+   .check
+   {
+       color:white;
+   }
+   .Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   } 
+   .template-overall-box-2
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:100%;
+      padding-block:0px;
+      margin: auto;
+      overflow:scroll;
+  }
+}
+@media only screen and (min-width:1025px) and (max-width:1445px) 
+{
+    .Header
+    {
+        padding: 10px;
+        width:100%;
+        height:75px;
+        background-color:white;
+        display:flex;
+        justify-content: space-between;
+    }
+    .details
+   {
+    width:100%;
+    height:calc(100vh - 75px);
+    background-color:#f1f5f8;
+    /* overflow:hidden; */
+    }
+    .logo
+   {
+       width:90px;
+       height:20px;
+       margin-inline:10px;                
+   }
+   .logo-btn
+   {
+       background-color:#50C878;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:6px;     
+   }
+   .logo-text
+   {
+       color:white;
+       font-size:12px;
+       text-align:center;
+       padding-block-end:01px;
+       padding-block-start:05px;
+   }
+   .logo-header
+   {
+   display: flex;
+   padding-block: 15px;
+   }
+   .Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:10px; 
+       width:80%;   
+   }
+   .Step-1,.Step-2,.Step-3,.Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px  ;
+       margin-block:10px;
+   }
+   .Templete
+   {   
+       background-color:white;
+       width:70%;
+       height:77vh;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block:30px;
+   }
+   .Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .stepper-text-2
+   {
+    font-size:15px;
+    font-weight:bold;     
+    letter-spacing:0.5px;    
+    padding-block:06px;
+    padding-inline-end:05px;
+   }
+   .stepper-text-1
+   {
+       font-size:15px;
+       font-weight:bold;     
+       letter-spacing:0.5px;
+       color:lightgray;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+  .stepper-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:08px;
+       padding-inline-end:05px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:05px;
+       color:lightgray;
+       font-weight: bold;
+   }
+   .Templete-box-1
+   {
+       width:180px;
+       height:180px;
+       border-style: dashed;
+       border-color: lightgray;     
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-block:10px;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:#027aff;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:45%; 
+       padding-block:08px;          
+       margin-top:20px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;  
+       padding-block:40px;   
+   }
+   .more-btn
+   {
+       color:#027aff;
+       float:right;
+       padding:15px;
+       display:none;
+   }
+  .Over-all-templetes
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:85%;
+      padding-block:0px;
+      margin: auto;
+      overflow:scroll;
+  }
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:180px;
+       height:180px;     
+       position:relative;
+       margin-block:10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:154px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:80px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:20px;
+   }
+   .check
+   {
+       color:white;
+   }
+   .Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   } 
+   .template-overall-box-2
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:100%;
+      padding-block:0px;
+      margin: auto;
+      overflow:scroll;
+  }
+}
+@media only screen and (min-width:1446px) and (max-width:2645px) 
+{
+    .Header
+    {
+        padding: 10px;
+        width:100%;
+        height:75px;
+        background-color:white;
+        display:flex;
+        justify-content: space-between;
+    }
+    .details
+   {
+    width:100%;
+    height:calc(100vh - 75px);
+    background-color:#f1f5f8;
+    /* overflow:hidden; */
+    }
+    .logo
+   {
+       width:90px;
+       height:20px;
+       margin-inline:10px;                
+   }
+   .logo-btn
+   {
+       background-color:#50C878;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:6px;     
+   }
+   .logo-text
+   {
+       color:white;
+       font-size:12px;
+       text-align:center;
+       padding-block-end:01px;
+       padding-block-start:05px;
+   }
+   .logo-header
+   {
+   display: flex;
+   padding-block: 15px;
+   }
+   .Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:10px; 
+       width:80%;   
+   }
+   .Step-1,.Step-2,.Step-3,.Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px  ;
+       margin-block:10px;
+   }
+   .Templete
+   {   
+       background-color:white;
+       width:50%;
+       height:75vh;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block:30px;
+   }
+   .Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .stepper-text-2
+   {
+    font-size:15px;
+    font-weight:bold;     
+    letter-spacing:0.5px;    
+    padding-block:06px;
+    padding-inline-end:05px;
+   }
+   .stepper-text-1
+   {
+       font-size:15px;
+       font-weight:bold;     
+       letter-spacing:0.5px;
+       color:lightgray;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+  .stepper-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:08px;
+       padding-inline-end:05px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:05px;
+       color:lightgray;
+       font-weight: bold;
+   }
+   .Templete-box-1
+   {
+       width:180px;
+       height:180px;
+       border-style: dashed;
+       border-color: lightgray;     
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-block:10px;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:#027aff;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:45%; 
+       padding-block:08px;          
+       margin-top:20px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;  
+       padding-block:40px;   
+   }
+   .more-btn
+   {
+       color:#027aff;
+       float:right;
+       padding:15px;
+       display:none;
+   }
+  .Over-all-templetes
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:85%;
+      padding-block:0px;
+      margin: auto;
+    
+  }
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:180px;
+       height:180px;     
+       position:relative;
+       margin-block:10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:154px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:80px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:20px;
+   }
+   .check
+   {
+       color:white;
+   }
+   .Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   } 
+   .template-overall-box-2
+  {
+      display:flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      width:100%;
+      padding-block:0px;
+      margin: auto;
+    
+  }
+}

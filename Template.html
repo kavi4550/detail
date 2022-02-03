@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link  rel="stylesheet" href="Template.css">
+    <link  rel="stylesheet" href="TemplateResponsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+
+         <label class="logo-header">
+           <img src="./img/main-logo.png" class="logo">
+           <label class="logo-btn"><p class="logo-text">CAMPAIGN</p></label>
+        </label>
+
+        <div class="Stepper">
+
+            <div class="Step-1"><span class="check">
+                <span class="material-icons-outlined">
+                    check
+                    </span>
+            </span></div>
+            <p class="stepper-text-1">Details</p>  
+
+            <div class="Step-2">2</div>
+            <p class="stepper-text-2">Templates</p>
+
+            <div class="Step-3">3</div>
+            <p class="stepper-text-3">Design</p>
+ 
+            <div class="Step-4">4</div>
+            <p class="stepper-text-4">Trigger Events</p>
+ 
+          </div>
+         
+          <div class="Steper-btn-1"> 
+             <a href="Design.html" class="stepper-btn-a-1">
+              Continue </a> </div>
+                    
+        </div>
+
+        <div class="details">
+         
+            <div class="Templete">             
+                
+                <p class="Templete-t1">Choose a Template</p>
+                <p class="Templete-t2">You Can Build Your Own design or select a Pre-made Style.</p>
+            
+            <div class="Over-all-templetes">
+                 
+            <div class="Templete-box-1" onclick="select5()">
+
+                 <span class="Scrath">
+                    <span class="material-icons-outlined" >
+                        add
+                    </span>
+                 </span> 
+                <p class="templete-add">Build from Scratch</p> 
+
+            </div>
+
+            <div class="Templete-box-2" onclick="select()">
+                <img src="./img/templete-1-b1.png" class="img-temp"> 
+                <p class="temp-text-1">Inviatation to an Admission event</p>                   
+            </div>
+
+            <div class="Templete-box-3" onclick="select1()">
+                <img src="./img/templete-1-b1.png" class="img-temp"> 
+                <p class="temp-text-1">Follow-up From inQuery</p> 
+            </div>
+
+            <div class="template-overall-box-2">
+
+                <div class="Templete-box-4" onclick="select2()">
+                    <img src="./img/templete-1-b1.png" class="img-temp" > 
+                    <p class="temp-text-1">Inviatation to an interview in school</p>  
+                </div>
+    
+                <div class="Templete-box-5"  onclick="select3()">
+                    <img src="./img/templete-1-b1.png" class="img-temp"> 
+                    <p class="temp-text-1">Follow-up after interview</p> 
+                </div>
+    
+                <div class="Templete-box-6" onclick="select4()">
+                    <img src="./img/templete-1-b1.png" class="img-temp"> 
+                    <p class="temp-text-1">Invitation to a Tour in School</p> 
+                </div>
+    
+            </div>
+
+        </div>    
+         <a href="#" class="more-btn">More</a>
+           
+          </div>
+                 
+            </div>      
+
+    </div>
+    <script>
+        function select(){
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid #027aff"; 
+            document.getElementsByClassName("Templete-box-1")[0].style.borderColor="lightgray";  
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid lightgray";
+            console.clear();
+            console.log("Inviatation to an Admission event");
+        }
+         
+        function select1() {
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid #027aff";   
+            document.getElementsByClassName("Templete-box-1")[0].style.borderColor="lightgray"; 
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid lightgray";
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid lightgray"; 
+            console.clear();
+            console.log("Follow-up From inQuery");
+        }
+        function select2(){
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid #027aff";  
+            document.getElementsByClassName("Templete-box-1")[0].borderColor="lightgray"; 
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid lightgray";
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid lightgray"; 
+            console.clear();
+            console.log("Inviatation to an interview in school");
+        }
+         
+        function select3() {
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid #027aff";   
+            document.getElementsByClassName("Templete-box-1")[0].style.borderColor="lightgray";
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid lightgray";
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid lightgray";
+            console.clear();
+            console.log("Follow-up after interview");
+        }
+        function select4(){
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid #027aff";  
+            document.getElementsByClassName("Templete-box-1")[0].style.borderColor="lightgray";              
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid lightgray";
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid lightgray";     
+            console.clear();
+            console.log("Invitation to a Tour in School");     
+        }
+         
+        function select5() {
+            document.getElementsByClassName("Templete-box-1")[0].style.borderColor="#027aff";   
+            document.getElementsByClassName("Templete-box-2")[0].style.border ="3px solid lightgray";
+            document.getElementsByClassName("Templete-box-3")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-4")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-5")[0].style.border ="3px solid lightgray"; 
+            document.getElementsByClassName("Templete-box-6")[0].style.border ="3px solid lightgray";
+            console.clear();
+        }
+
+    </script>
+    
+</body>
+</html>

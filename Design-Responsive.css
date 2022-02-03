@@ -1,0 +1,1315 @@
+@media only screen and (min-width:250px) and (max-width:528px) 
+{
+    .Design-Container
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+        padding-block-end:20px;
+    }
+    .header
+    {
+        width: 100%;
+        height:140px;
+        background-color: white;
+        padding: 10px;
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;                
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;     
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .side-arrows
+    {
+       display:flex;       
+    }
+    .back-left,.back-right
+    {
+        background-color: #f1f5f8;
+        width:40px;
+        height:40px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:08px;
+        margin-right:20px;
+    }
+    .Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+    }
+    .Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #f1f5f8;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Step-1,.Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;
+        float:right;
+    }
+    .check
+    {
+        color:white;
+    }   
+    .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+    {
+     display:none;
+    }
+    .templates
+    {
+      width: 80%;
+      height:420px;
+      background-color:white;
+      margin:auto;
+      margin-block:40px;
+      border-radius:6px;
+      padding: 10px;
+      
+    }
+    .Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:160px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Add-image > input{
+        display: none;
+    }
+    .Drop-image
+    {
+        width:40px;
+        height:40px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:08px;
+        padding-block:05px;
+        margin-left:45%;
+        margin-top:50px;
+    }
+    .t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .side-content
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:528px) and (max-width:728px) 
+{
+    .Design-Container
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+        padding-block-end:29px;
+    }
+    .header
+    {
+        width: 100%;
+        height:140px;
+        background-color: white;
+        padding: 10px;
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;                
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;     
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .side-arrows
+    {
+       display:flex;       
+    }
+    .back-left,.back-right
+    {
+        background-color:#f1f5f8;
+        width:40px;
+        height:40px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:08px;
+        margin-right:20px;
+    }
+    .Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+    }
+    .Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #f1f5f8;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Step-1,.Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;
+        float:right;
+    }
+    .check
+    {
+        color:white;
+    }   
+    .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+    {
+     display:none;
+    }
+    .templates
+    {
+      width: 80%;
+      height:420px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Add-image > input{
+        display: none;
+    }
+    .Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .side-content
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:729px) and (max-width:928px) 
+{
+    .Design-Container
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+        padding-block-end:29px;
+    }
+    .header
+    {
+        width: 100%;
+        height:80px;
+        background-color: white;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        box-shadow:0px 1px #ecf1ec;        
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;   
+        margin-block:15px;             
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;  
+        margin-block:15px;   
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .side-arrows
+    {
+       display:flex;   
+       padding-block:15px;    
+       padding-inline-start:40px;
+    }
+    .back-left,.back-right
+    {
+        background-color:#f1f5f8;
+        width:30px;
+        height:30px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:04px;
+        margin-right:20px;
+        margin-block:13px;
+    }
+    .Stepper
+    {
+        display: flex;   
+        padding-block:15px;    
+    }
+    .Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #f1f5f8;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Step-1,.Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;   
+        position:relative;
+        top:-5px;          
+    }
+    .check
+    {
+        color:white;
+    }   
+    .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+    {
+     display:none;
+    }
+    .templates
+    {
+      width:65%;
+      height:480px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Add-image > input{
+        display: none;
+    }
+    .Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .side-content
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:929px) and (max-width:1024px) 
+{
+    .Design-Container
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+        padding-block-end:29px;
+    }
+    .header
+    {
+        width: 100%;
+        height:80px;
+        background-color: white;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        box-shadow:0px 2px #ecf1ec;       
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;   
+        margin-block:15px;             
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;  
+        margin-block:15px;   
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .side-arrows
+    {
+       display:flex;   
+       padding-block:15px;    
+       padding-inline-start:40px;
+    }
+    .back-left,.back-right
+    {
+        background-color:#f1f5f8;
+        width:30px;
+        height:30px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:04px;
+        margin-right:20px;
+        margin-block:13px;
+    }
+    .Stepper
+    {
+        display: flex;   
+        padding-block:15px;    
+    }
+    .Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #e1ebee;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Step-1,.Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;   
+        position:relative;
+        top:-5px;          
+    }
+    .check
+    {
+        color:white;
+    }   
+    .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+    {
+     display:none;
+    }
+    .templates
+    {
+      width:65%;
+      height:480px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Add-image > input{
+        display: none;
+    }
+    .Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .content
+    {
+        display:grid;
+        grid-template-columns:240px auto;
+        margin-top: 2px;
+    }
+    .side-content
+    {
+      width: 100%;
+      background-color:white;
+      padding:15px;
+    }
+    .c1
+    {
+        font-size:16px;
+        font-weight: bold;
+        letter-spacing:1px;
+        padding-inline-start:60px;
+    }
+    .side-c1
+    {
+        display:flex;
+     }
+     .c2
+     {
+        font-size:13px;
+        font-weight:800;
+        padding-block: 10px;
+        padding-top:12px;
+        color:lightgray;
+        letter-spacing: 1px;
+     }
+     input[type=text] {
+        width:95%;
+        padding: 6px 1px;
+        padding-inline:5px;
+        text-align:left;         
+        box-sizing: border-box;     
+        border:2px solid #f1f5f8;
+        border-radius:4px;
+        display:block;
+      }
+      .shapes
+      {
+        display:flex;
+        background-color:#f1f5f8;
+        width:200px;
+        padding:08px;
+        height:auto;
+        display:flex;
+        justify-content:space-between;
+        border-radius:6px;
+      }
+      input {
+        display: none; 
+        
+      }
+      input:checked + .label {
+        background-color:white;         
+        border-radius:5px;
+        color:black;
+        /* padding-inline:05px; */
+        padding:5px;
+      }
+      .background-color
+      {
+          display:flex;
+          border:2px solid#f1f5f8;
+          border-radius:3px;
+          width: 95%;
+          height:35px;
+          justify-content:space-between;
+      }
+      .backgreen-color
+      {
+          width:18px;
+          height:18px;
+          display: block;
+          background-color: #50C878;
+          border-radius:2px;
+          margin-block:5px;
+          margin-inline:8px;
+      }
+      .backgreen-white
+      {
+        width:18px;
+        height:18px;
+        display: block;
+        border:1px solid black;
+        border-radius:2px;
+        margin-block:5px;
+        margin-inline:8px;
+    }
+      .back-green-text
+      {
+        padding-block:05px;
+      }
+      .back-green-label
+      {
+          display:flex;
+      }
+      .back-green-icon
+      {
+          padding-block:5px;
+      }
+      select {
+        width:95%;
+        padding:7px;
+        border:2px solid #f1f5f8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      
+}
+@media only screen and (min-width:1024px) and (max-width:2465px) 
+{
+    .Design-Container
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+        padding-block-end:43px;
+    }
+    .header
+    {
+        width: 100%;
+        height:80px;
+        background-color: white;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        box-shadow:0px 2px #ecf1ec;       
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;   
+        margin-block:15px;             
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;  
+        margin-block:15px;   
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .side-arrows
+    {
+       display:flex;   
+       padding-block:15px;    
+       padding-inline-start:40px;
+    }
+    .back-left,.back-right
+    {
+        background-color:#f1f5f8;
+        width:30px;
+        height:30px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:04px;
+        margin-right:10px;
+        margin-block:13px;
+    }
+    .Stepper
+    {
+        display: flex;   
+        padding-block:15px;
+        width:50%;    
+    }
+ 
+    .Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #e1ebee;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Step-1,.Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;   
+        position:relative;
+        top:-5px;          
+    }
+    .check
+    {
+        color:white;
+    }   
+    .stepper-text-1,.stepper-text-2,.stepper-text-3,.stepper-text-4
+    {
+      padding-block:05px;
+      display:block;
+      font-size:14px;
+      color:lightgray;
+      font-weight: bold;
+    }
+    .stepper-text-3
+    {
+    padding-block:05px;
+      display:block;
+      font-size:14px;
+      color:black;
+      font-weight: bold;
+    }
+    .templates
+    {
+      width:65%;
+      height:560px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Add-image > input{
+        display: none;
+    }
+    .Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .content
+    {
+        display:grid;
+        grid-template-columns:240px auto;
+        margin-top: 2px;
+    }
+    .side-content
+    {
+      width: 100%;
+      background-color:white;
+      padding:15px;
+      padding-block:30px;
+      padding-bottom: 30px;
+    }
+    .c1
+    {
+        font-size:16px;
+        font-weight: bold;
+        letter-spacing:1px;
+        padding-inline-start:60px;
+    }
+    .side-c1
+    {
+        display:flex;
+     }
+     .c2
+     {
+        font-size:13px;
+        font-weight:800;
+        padding-block: 10px;
+        padding-top:12px;
+        color:lightgray;
+        letter-spacing: 1px;
+     }
+     input[type=text] {
+        width:95%;
+        padding: 6px 1px;
+        padding-inline:5px;
+        text-align:left;         
+        box-sizing: border-box;     
+        border:2px solid #f1f5f8;
+        border-radius:4px;
+        display:block;
+      }
+      .shapes
+      {
+        display:flex;
+        background-color:#f1f5f8;
+        width:200px;
+        padding:08px;
+        height:auto;
+        display:flex;
+        justify-content:space-between;
+        border-radius:6px;
+      }
+      input {
+        display: none; 
+        
+      }
+      input:checked + .label {
+        background-color:white;         
+        border-radius:5px;
+        color:black;
+        /* padding-inline:05px; */
+        padding:5px;
+      }
+      .background-color
+      {
+          display:flex;
+          border:2px solid#f1f5f8;
+          border-radius:3px;
+          width: 95%;
+          height:35px;
+          justify-content:space-between;
+      }
+      .backgreen-color
+      {
+          width:18px;
+          height:18px;
+          display: block;
+          background-color: #50C878;
+          border-radius:2px;
+          margin-block:5px;
+          margin-inline:8px;
+      }
+      .backgreen-white
+      {
+        width:18px;
+        height:18px;
+        display: block;
+        border:1px solid black;
+        border-radius:2px;
+        margin-block:5px;
+        margin-inline:8px;
+    }
+      .back-green-text
+      {
+        padding-block:05px;
+      }
+      .back-green-label
+      {
+          display:flex;
+      }
+      .back-green-icon
+      {
+          padding-block:5px;
+      }
+      select {
+        width:95%;
+        padding:7px;
+        border:2px solid #f1f5f8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      
+}

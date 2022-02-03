@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title> 
+    <link  rel="stylesheet" href="Detail.css">
+    <link  rel="stylesheet" href="Design-Responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+</head>
+<body>
+    <div class="Design-Container">
+
+      <div class="header">
+        <label class="logo-header">
+            <img src="img/main-logo.png" class="logo">
+            <label class="logo-btn"><p class="logo-text">CAMPAIGN</p></label>
+        
+        <div class="side-arrows">   
+        <a href="detail.html" >
+            <span class="material-icons-outlined">
+                navigate_before
+                </span>
+        </a>
+       </div> 
+        </label>
+ 
+         <div class="Stepper">
+             
+             <div class="Step-1"><span class="check">
+                 <span class="material-icons-outlined">
+                     check
+                     </span>
+             </span></div>
+             <p class="stepper-text-1">Details</p>  
+ 
+             <div class="Step-2"><span class="check">
+                <span class="material-icons-outlined">
+                    check
+                    </span>
+            </span></div>
+
+             <p class="stepper-text-2">Templates</p>
+ 
+             <div class="Step-3">3</div>
+             <p class="stepper-text-3">Design</p>
+  
+             <div class="Step-4">4</div>
+             <p class="stepper-text-4">Trigger Events</p>
+  
+           </div>
+          <label class="last-label">
+           <span class="back-left">
+            <span class="material-icons-outlined">
+                rotate_left
+                </span>
+           </span>
+
+           <span class="back-right">
+            <span class="material-icons-outlined">
+                rotate_right
+                </span>
+           </span>
+          
+           <div class="Steper-btn-1"> 
+              <a href="Triger Events.html" class="stepper-btn-a-1">
+               Continue </a> 
+            </div>
+        </label>
+                     
+         </div>
+
+         <div class="content">
+
+            <div class="side-content">
+
+            <div class="side-c1">
+              <span class="side-content-arrows"><span class="material-icons-outlined">
+                keyboard_arrow_left
+                </span></span>    
+                <p class="c1">Button</p>
+            </div>
+            <p class="c2">Link</p>
+
+            <form>                
+                
+                <input type="text" id="fname" name="fname" placeholder="http://"> 
+
+            </form>
+        
+            <p class="c2">Shapes</p>
+
+            <div class="shapes">
+
+                <label>
+                  <input type="radio" name="radioBtn" ><span class="label">Round</span>
+              </label>
+              <label>
+                  <input type="radio" name="radioBtn" checked><span class="label">Squre</span>
+              </label>
+              <label>
+                  <input type="radio" name="radioBtn"><span class="label">Fill</span>
+              </label>
+            
+              </div>
+
+              <p class="c2">Style</p>
+
+              <div class="shapes">
+  
+                  <label>
+                    <input type="radio" name="radioBtn1" checked><span class="label">Filled</span>
+                </label>
+                <label>
+                    <input type="radio" name="radioBtn1" ><span class="label">Outline</span>
+                </label>
+                
+                </div>
+
+                <p class="c2">Background Color</p>
+                
+                <div class="background-color">
+
+                    <label class="back-green-label">
+                    <span class="backgreen-color"></span>
+                    <p class="back-green-text">#00C98D</p>
+                   </label>
+                    <span class="back-green-icon"><span class="material-icons-outlined">
+                        keyboard_arrow_down
+                        </span></span>
+                </div>
+                <p class="c2">Font</p>              
+                    <form>
+                      <select id="Circular">
+                        <option value="circular">Circular</option>
+                        <option value="Non-circular">Circular</option>
+                      </select>
+                    </form>
+
+                    <p class="c2">Font Size</p>              
+                    <form>
+                      <select id="Circular">
+                        <option value="circular">14pt</option>
+                        <option value="Non-circular">16pt</option>
+                      </select>
+                    </form>      
+                    <p class="c2">Font Color</p>
+                
+                    <div class="background-color">
+    
+                        <label class="back-green-label">
+                        <span class="backgreen-white"></span>
+                        <p class="back-green-text">White</p>
+                       </label>
+                        <span class="back-green-icon"><span class="material-icons-outlined">
+                            keyboard_arrow_down
+                            </span></span>
+                    </div>
+            </div>
+  
+           <div class="templates">
+  
+               <div class="Add-image">
+                <label for="file-input">
+                 <span class="Drop-image"><span class="material-icons-outlined">
+                  file_upload
+                  </span></span>
+                </label>
+
+                <input id="file-input" type="file" onchange="myfileupload()"/>
+               </div>
+              
+               <div class="template-text">
+                   <p class="t1">It's time to Design Your Email</p>
+                   <p class="t2">YOu can define the layout of your Email and give your content a place to live
+                       by adding, rearrangig, and deleting Content blocks.
+                   </p>                  
+               </div>
+              
+               <div class="view-website">
+                 <label class="view-website-btn">
+                     View Our Website
+                 </label>
+               </div>
+           </div>   
+      </div>
+        
+       
+
+      </div>
+    <script>
+      function myfileupload() {
+          var x = document.getElementById("file-input");
+          var txt = "";
+  if ('files' in x) {
+    if (x.files.length == 0) {
+      txt = "Select one or more files.";
+    } else {
+      for (var i = 0; i < x.files.length; i++) {
+        txt +=  (i+1) + ". file";
+        var file = x.files[i];
+        if ('name' in file) {
+          txt += "name: " + file.name ;
+        }
+      
+      }
+    }
+  } 
+  else {
+    if (x.value == "") {
+      txt += "Select one or more files.";
+    } 
+  }
+  console.log(txt);
+}
+     </script>
+</body>
+</html>
